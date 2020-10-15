@@ -4,14 +4,16 @@
     --light-color: #ddd;
 }
 
+body {
+  background: var(--dark-color);
+}
+
 .container {
     background: var(--dark-color);
     max-width: 100%;
     width: 800px;
     margin: auto;
-    border-top: 1px solid var(--dark-color);
-    border-left: 1px solid var(--dark-color);
-    border-right: 1px solid var(--dark-color);
+    border: 1px solid var(--light-color);
 }
 
 .container .dropdown {
